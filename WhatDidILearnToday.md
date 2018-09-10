@@ -208,5 +208,17 @@ A[Hard edge] -->B(Round edge)
     C -->|Two| E[Result two]
 ```
 
-1. learned how to use Typora
+
+
+#### Functional Programming
+
+Managing complexity through functional composition
+
+
+
+#### Mon Sep 10, 2018
+
+CSRF (commonly pronounced “sea-surf”)CSRF (commonly pronounced “sea-surf”)
+
+
 
