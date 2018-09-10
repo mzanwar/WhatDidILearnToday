@@ -218,7 +218,7 @@ Managing complexity through functional composition
 
 #### Mon Sep 10, 2018
 
-CSRF (commonly pronounced “sea-surf”)CSRF (commonly pronounced “sea-surf”)
+CSRF (commonly pronounced “sea-surf”)
 
 
 
