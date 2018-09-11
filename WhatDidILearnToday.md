@@ -220,7 +220,5 @@ Managing complexity through functional composition
 
 CSRF (commonly pronounced “sea-surf”)
 
-Really cool tool called Hammerspoon
+Really cool tool called Hammerspoon - can be used to automate all sorts of stuff
 
-
-#### Mon Sep 1, 2018
