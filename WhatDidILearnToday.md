@@ -216,9 +216,38 @@ Managing complexity through functional composition
 
 
 
-#### Mon Sep 10, 2018
+###Mon Sep 10, 2018
 
 CSRF (commonly pronounced “sea-surf”)
 
 Really cool tool called Hammerspoon - can be used to automate all sorts of stuff
+
+###Tue Sep 2, 2018
+
+Writing your own control structures in Scala. Incredibly powerful! Write a blog post on this
+
+```scala
+// Our own if/then/else 
+def when[A](test: Boolean, whenTrue: A, whenFalse: A): A = 
+  test match {
+    case true  => whenTrue
+    case false => whenFalse
+  }
+
+scala> when(1 == 2, "foo", "bar")
+res13: String = bar
+
+scala> when(1 == 1, "foo", "bar")
+res14: String = foo
+
+// Ok so far, but...
+
+scala> when(1 == 1, println("foo"), println("bar"))
+foo
+bar
+
+// that is weird
+```
+
+
 
