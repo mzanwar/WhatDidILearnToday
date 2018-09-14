@@ -251,3 +251,19 @@ bar
 
 
 
+### Fri Sep 5, 2018
+
+Scala you can create a tuple and declare what is inside together. The only benefit of such a statement is to keep related fields together.
+
+```scala
+// old way
+val input = "In"
+val output = "Out"
+
+// new way
+val (input, output) = ("In" "Out")
+```
+
+IntelliJ show implicit parameters
+
+> Command + Shift + P
