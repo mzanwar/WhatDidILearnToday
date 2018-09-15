@@ -264,6 +264,38 @@ val output = "Out"
 val (input, output) = ("In" "Out")
 ```
 
-IntelliJ show implicit parameters
 
-> Command + Shift + P
+
+> IntelliJ show implicit parameters: `Command + Shift + P`
+
+
+
+Embedded Kafka library uses the using patter
+
+```scala
+def withRunningKafkaOnFoundPort[T](config: EmbeddedKafkaConfig)(
+      body: EmbeddedKafkaConfig => T): T = {
+    withRunningZooKeeper(config.zooKeeperPort) { zkPort =>
+      withTempDir("kafka") { kafkaLogsDir =>
+        val broker: KafkaServer =
+          startKafka(config.kafkaPort,
+                     zkPort,
+                     config.customBrokerProperties,
+                     kafkaLogsDir)
+        val actualConfig =
+          EmbeddedKafkaConfigImpl(EmbeddedKafka.kafkaPort(broker),
+                                  zkPort,
+                                  config.customBrokerProperties,
+                                  config.customProducerProperties,
+                                  config.customConsumerProperties)
+        try {
+          body(actualConfig)
+        } finally {
+          broker.shutdown()
+          broker.awaitShutdown()
+        }
+      }
+    }
+  }
+```
+
