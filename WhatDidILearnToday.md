@@ -299,3 +299,12 @@ def withRunningKafkaOnFoundPort[T](config: EmbeddedKafkaConfig)(
   }
 ```
 
+### Tue Sep 12, 2018
+
+https://www.scala-sbt.org/0.13/docs/Scopes.html
+
+
+
+![color cube](https://www.scala-sbt.org/0.13/docs/files/rgb_color_solid_cube.png)
+
+Sbt scopes with a RGB cube, pretty neat idea.
