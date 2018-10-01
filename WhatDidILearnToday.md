@@ -1,4 +1,4 @@
-# What did I learn
+#   What did I learn
 
 ### Wed Aug 22 16:16:47 2018
 
@@ -222,7 +222,7 @@ CSRF (commonly pronounced “sea-surf”)
 
 Really cool tool called Hammerspoon - can be used to automate all sorts of stuff
 
-###Tue Sep 2, 2018
+###Tue Sep 12, 2018
 
 Writing your own control structures in Scala. Incredibly powerful! Write a blog post on this
 
@@ -251,7 +251,7 @@ bar
 
 
 
-### Fri Sep 5, 2018
+### Fri Sep 15, 2018
 
 Scala you can create a tuple and declare what is inside together. The only benefit of such a statement is to keep related fields together.
 
@@ -299,7 +299,7 @@ def withRunningKafkaOnFoundPort[T](config: EmbeddedKafkaConfig)(
   }
 ```
 
-### Tue Sep 12, 2018
+### Tue Sep 18, 2018
 
 https://www.scala-sbt.org/0.13/docs/Scopes.html
 
@@ -308,3 +308,41 @@ https://www.scala-sbt.org/0.13/docs/Scopes.html
 ![color cube](https://www.scala-sbt.org/0.13/docs/files/rgb_color_solid_cube.png)
 
 Sbt scopes with a RGB cube, pretty neat idea.
+
+### Thu Sep 20, 2018
+
+> SR Compatibility vs Evolution 
+>
+> 1. These two concepts are disjoint
+> 2. SR allows for auto-selection of the correct schema, thus making the concept of evolution mute
+
+- Consumers have the ability to use multiple schemas to read
+- Producers are fixed to one schema
+
+
+
+Since we are not going to **deprecate the old schemas**, we don’t have to worry about the evolution.
+
+
+
+The value in evolution is a newer schema being able to read data, written using an old schema.
+
+Blog post material
+
+
+
+Avro backwards compatibility -> 
+
+Backwards Evolution -> 
+
+
+
+The typical levels (not transitive) are pretty useless, as any change can be made with the right set of deltas (add and remove). It only checks against the latest registered schema. 
+
+
+
+#### Mon Oct 01, 2018
+
+Commanders Intent
+
+https://personalmba.com/commanders-intent/
