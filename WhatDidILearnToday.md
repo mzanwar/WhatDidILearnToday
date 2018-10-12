@@ -346,3 +346,32 @@ The typical levels (not transitive) are pretty useless, as any change can be mad
 Commanders Intent
 
 https://personalmba.com/commanders-intent/
+
+
+
+#### Fri Oct 05, 2018
+
+Sum from stdin in bash
+
+```bash
+curl localhost:8080/consumer/jfenocchi-2-average-rating2 | jq '.[].lag' -r | paste -sd+ | bc
+```
+
+#### Mon Oct 08, 2018
+#### Thu Oct 11, 2018
+
+How to learn - double-loop learning:
+
+https://hbr.org/1991/05/teaching-smart-people-how-to-learn
+
+
+
+#### Fri Oct 12, 2018
+
+Historgrams, Latency, Why averages are misleading?
+
+http://latencytipoftheday.blogspot.com/2014/06/latencytipoftheday-you-cant-average.html
+
+
+
+https://queue.acm.org/detail.cfm?id=1809426
