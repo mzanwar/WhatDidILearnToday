@@ -375,3 +375,9 @@ http://latencytipoftheday.blogspot.com/2014/06/latencytipoftheday-you-cant-avera
 
 
 https://queue.acm.org/detail.cfm?id=1809426
+
+
+
+How to get things done, even if you don’t feel like it!
+
+https://queue.acm.org/detail.cfm?id=3280677
