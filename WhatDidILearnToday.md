@@ -394,6 +394,10 @@ Vitriol - cruel and bitter criticism.
 
 
 
-GIT FLIGHT RULES - 
+GIT FLIGHT RULES - *Flight Rules* are the hard-earned body of knowledge recorded in manuals that list, step-by-step, what to do if X occurs, and why. Essentially, they are extremely detailed, scenario-specific standard operating procedures.
 
 https://github.com/k88hudson/git-flight-rules
+
+How to build good dashboards:
+
+https://dataschool.com/courses/building-a-dashboard-best-practices/lessons/determine-the-metrics-to-monitor/
