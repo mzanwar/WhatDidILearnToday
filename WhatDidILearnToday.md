@@ -381,3 +381,19 @@ https://queue.acm.org/detail.cfm?id=1809426
 How to get things done, even if you don’t feel like it!
 
 https://queue.acm.org/detail.cfm?id=3280677
+
+
+
+#### Mon Oct 15, 2018
+
+#### Tue Oct 16, 2018
+
+
+
+Vitriol - cruel and bitter criticism.
+
+
+
+GIT FLIGHT RULES - 
+
+https://github.com/k88hudson/git-flight-rules
