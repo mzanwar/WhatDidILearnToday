@@ -401,3 +401,17 @@ https://github.com/k88hudson/git-flight-rules
 How to build good dashboards:
 
 https://dataschool.com/courses/building-a-dashboard-best-practices/lessons/determine-the-metrics-to-monitor/
+
+![img](https://1k2osthya1iaqacw1f9dgs95-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Chartio-Chart-Type-Decision-Tree-768x505.png)
+
+
+
+#### Wed Oct 17, 2018
+
+Legibility with text on the computer
+
+![Vertical and horizontal rhythm](https://betterwebtype.com/assets/images/rhythm/076.jpg)
+
+![Vertical and horizontal rhythm](https://betterwebtype.com/assets/images/rhythm/085a.jpg)
+
+https://betterwebtype.com/rhythm-in-web-typography
