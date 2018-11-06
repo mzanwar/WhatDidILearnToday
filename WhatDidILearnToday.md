@@ -415,3 +415,47 @@ Legibility with text on the computer
 ![Vertical and horizontal rhythm](https://betterwebtype.com/assets/images/rhythm/085a.jpg)
 
 https://betterwebtype.com/rhythm-in-web-typography
+
+
+
+Web Typography
+
+https://betterwebtype.com/web-typography-resources
+
+
+
+#### Fri Oct 19, 2018
+
+
+
+**Find some string in all folder**
+
+
+
+```bash
+grep -rnw ‘.’ -e ‘8081’ // (look for port number in all configuration files)
+```
+
+
+
+#### Wed Oct 31, 2018
+
+Hallows Eve
+
+If looking for a good bash script to follow: ./confluent <- awesome
+
+Ruby to write shell scripts
+
+
+
+#### Mon Nov 05, 2018
+
+Search of pids of all running java processes
+
+pgrep -f java
+
+#### Tue Nov 06, 2018
+
+Assignment Branch Condition size for parse_commandline is too high
+
+ABC check - your method does too much
