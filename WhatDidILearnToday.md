@@ -459,3 +459,7 @@ pgrep -f java
 Assignment Branch Condition size for parse_commandline is too high
 
 ABC check - your method does too much
+
+#### Fri Nov 09, 2018
+
+https://www.cortes.design/post/best-saas-landing-page-examples-inspiration
